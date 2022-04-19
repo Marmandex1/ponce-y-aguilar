@@ -20,19 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'primero' );
 
 /** Database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', '123456' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'AzjPUf}$Ssx3x(#9O!xqzLjUi+AZbrOu+&4p!4Q=o-tVAAI7noi*i TpvJrLS2.,' );
+define( 'SECURE_AUTH_KEY',  'WzK@H:q PrmSHjl#EOKtvaP~[Nc3|#On+NKepmo1QhD6-KMXa~F6a#srPfktAh-I' );
+define( 'LOGGED_IN_KEY',    '@DmpwfGhW~taT>2PP]O*#g+7F4,)9S~DX}${/!p<*(*GX1^OT?SxUK8~C ~@7S J' );
+define( 'NONCE_KEY',        '>~aruyWx-SBd&C2?uKQ#`?%9HE_QkZgi/;{pG83svPEbn8{aHgf^Z#:YAVV=@0;^' );
+define( 'AUTH_SALT',        'j8-[y0Ej<SWza>(#m/ q|!Y]f, 3.eH1+0rhZKtlfcx@T{D@2*1ml}s|nRN{ D$~' );
+define( 'SECURE_AUTH_SALT', '7vWWhk45,~%YkaOkK_`!==Udj)P&c`/V]0${IYxIv1VdXS@9Y|20?$Tc1WkjY/Km' );
+define( 'LOGGED_IN_SALT',   'J`$^V]70@0RH0[IGMdVW]m|E^l(V5j538R..g`n_}{Z%C3giv(Se+]|7>Dm.1ZIh' );
+define( 'NONCE_SALT',       'bubRWA@NA`5BWsk~aIdF):e4w,IoG9P[-Fh}-SwXdc)=fn0*/u7q+iRYi,pOi(dC' );
 
 /**#@-*/
 
